@@ -1,6 +1,7 @@
 [build-system]
 requires = [
     "setuptools>=42",
+	"wheel",
 	"certifi==2020.12.5",
 	"cycler==0.10.0",
 	"decorator==4.4.2",
