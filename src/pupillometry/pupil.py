@@ -1,5 +1,5 @@
 # 2020-12-30. Leonardo Molina.
-# 2021-04-30. Last modified.
+# 2021-08-06. Last modified.
 
 import datetime
 import json
@@ -7,14 +7,14 @@ import matplotlib.pyplot as plt
 import cv2 as cv
 import numpy as np
 from colorsys import rgb_to_hsv
-from flexible import Flexible
+from .flexible import Flexible
 from matplotlib import animation
 from matplotlib.widgets import PolygonSelector
 from pathlib import Path
 from sklearn.mixture import GaussianMixture
 from sklearn.covariance import EllipticEnvelope
 from threading import Lock
-from videoCapture import VideoCapture
+from .videoCapture import VideoCapture
 from skimage.measure import EllipseModel
 from matplotlib.patches import Ellipse
 from warnings import filterwarnings

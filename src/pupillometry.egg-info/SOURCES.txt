@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pupillometry/__init__.py
+src/pupillometry/events.py
+src/pupillometry/flexible.py
+src/pupillometry/pupil.py
+src/pupillometry/scheduler.py
+src/pupillometry/videoCapture.py
+src/pupillometry.egg-info/PKG-INFO
+src/pupillometry.egg-info/SOURCES.txt
+src/pupillometry.egg-info/dependency_links.txt
+src/pupillometry.egg-info/requires.txt
+src/pupillometry.egg-info/top_level.txt

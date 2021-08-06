@@ -1,10 +1,10 @@
 # 2020-02-18. Leonardo Molina.
-# 2021-01-23. Last modified.
+# 2021-08-06. Last modified.
 
 import time
 import cv2 as cv
-from events import Publisher
-from scheduler import Scheduler
+from .events import Publisher
+from .scheduler import Scheduler
 
 class VideoCapture(cv.VideoCapture):
     def __init__(self, *args, **kwargs):

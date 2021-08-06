@@ -1,9 +1,9 @@
 # 2020-02-18. Leonardo Molina.
-# 2021-04-08. Last modified.
+# 2021-08-06. Last modified.
 
 import threading
 import time
-from events import Publisher, Subscription
+from .events import Publisher, Subscription
 
 class Scheduler:
     def __init__(self, *args, **kwargs):
